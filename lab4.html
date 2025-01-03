@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>Student Registration</title>
+    </head>
+    <body>
+        <h1>Student Registration</h1>
+        <form action="./submit.html" target="_self">
+            <table>
+                <tr>
+                    <td>
+                        <label for="fname">Full Name :</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Enter your full name" id="fname" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Email :</label>
+                    </td>
+                    <td>
+                        <input type="text" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Mobile Number :</label>
+                    </td>
+                    <td>
+                        <input type="number" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Address :</label>
+                    </td>
+                    <td>
+                        <textarea rows="5" cols="22"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Nationality">Nationality :</label>
+                    </td>
+                    <td>
+                        <select id="Nationality" name="Nationality" required>
+                            <option disabled selected>Select</option>
+                            <option>Indian</option>
+                            <option>European</option>
+                            <option>American</option>
+                            <option>Australian</option>
+                            <option>British</option>
+                            <option>Afghani</option>
+                            <option>Pakistani</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Date">Date of Birth :</label>
+                    </td>
+                    <td>
+                        <input type="date" id="Date">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Gender :</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" id="male"><label for="male">Male</label>
+                        <input type="radio" name="gender" id="female"><label for="female">Female</label>
+                        <input type="radio" name="gender" id="no"><label for="no">Other</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Highest Degree :</label>
+                    </td>
+                    <td>
+                        <select id="degree">
+                            <option disabled selected>Select</option>
+                            <option>Undergraduate</option>
+                            <option>B. Tech</option>
+                            <option>B.Sc.</option>
+                            <option>M. Tech</option>
+                            <option>M.Sc.</option>
+                            <option>P.H.D</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>CPI :</label>
+                    </td>
+                    <td>
+                        <input type="number">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>University :</label>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Passing Year :</label>
+                    </td>
+                    <td>
+                        <select id="year">
+                            <option disabled selected>Select</option>
+                            <option>2021</option>
+                            <option>2022</option>
+                            <option>2023</option>
+                            <option>2024</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Submit">
+                    </td>
+                    <td>
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
