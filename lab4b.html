@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>COVID-19 Registration</title>
+    </head>
+    <body>
+        <h1>COVID-19 Vaccine Registration Form</h1>
+        <form action="./submit.html" target="_self">
+            <table>
+                <tr>
+                    <td>
+                        <label for="fname">First Name :</label>
+                    </td>
+                    <td>
+                        <input type="text" id="fname" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="lname">Last Name :</label>
+                    </td>
+                    <td>
+                        <input type="text" id="lname" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="an">Adhaar Number :</label>
+                    </td>
+                    <td>
+                        <input type="number" id="an" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="vn">Vaccine Name :</label>
+                    </td>
+                    <td>
+                        <select id="vn" required>
+                            <option disabled selected>Please Select Vaccine Name</option>
+                            <option>Vaccine 1</option>
+                            <option>Vaccine 2</option>
+                            <option>Vaccine 3</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="vcn">Vaccination Center Name :</label>
+                    </td>
+                    <td>
+                        <select id="vcn">
+                            <option disabled selected>Please Select Vaccination Center Name</option>
+                            <option>A School</option>
+                            <option>B School</option>
+                            <option>C School</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="date">Date of Dose :</label>
+                    </td>
+                    <td>
+                        <input type="date" id="date">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="d">Dose Number :</label>
+                    </td>
+                    <td>
+                        <input type="number" id="d">
+                    </td>
+                </tr>
+            </table><br>
+            <input type="submit" value="Submit">
+            <input type="button" value="Cancel">
+        </form>
+    </body>
+</html>
